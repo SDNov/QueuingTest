@@ -1,0 +1,176 @@
+{
+  "activityId": "BP942_ST_DocSender",
+  "activityInstanceId": "BP942_ST_DocSender:bf4c6d2c-1c8b-11ea-8d9e-02a4cfe3ae25",
+  "errorMessage": null,
+  "errorDetails": null,
+  "executionId": "bf4c6d2b-1c8b-11ea-8d9e-02a4cfe3ae25",
+  "id": "bf4c6d2f-1c8b-11ea-8d9e-02a4cfe3ae25",
+  "lockExpirationTime": "2019-12-12T03:03:53.161+0000",
+  "processDefinitionId": "BP_942_SendDoc:11:8f145794-1ab1-11ea-8d9e-02a4cfe3ae25",
+  "processDefinitionKey": "BP_942_SendDoc",
+  "processInstanceId": "bf4c45d2-1c8b-11ea-8d9e-02a4cfe3ae25",
+  "retries": null,
+  "suspended": false,
+  "workerId": "externalTaskProcessor",
+  "topicName": "documentHandler",
+  "tenantId": null,
+  "variables": {
+    "DMN_010_BusinessChecker": {
+      "type": "Object",
+      "value": "{\"CheckSerial\":false,\"CheckDuplicates\":false}",
+      "valueInfo": {
+        "objectTypeName": "java.util.HashMap<java.lang.Object,java.lang.Object>",
+        "serializationDataFormat": "application/json"
+      }
+    },
+    "DMN_999_SenderReceiver": {
+      "type": "Object",
+      "value": "rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAACdAANb3V0U2VuZGVyVHJocHQADjM2MzZlNDNmYmUwNzhldAAPb3V0UmVjZWl2ZXJUcmhwdAAOMGIwMWYyZTk4OTk3Y2J4",
+      "valueInfo": {
+        "objectTypeName": "java.util.HashMap",
+        "serializationDataFormat": "application/x-java-serialized-object"
+      }
+    },
+    "DMN_Outcoming_doc_config": {
+      "type": "Object",
+      "value": "{\"CreateDoc\":\"ITMNOT.T901\",\"waitNotify\":false,\"customBuilder\":false,\"highLevel\":false,\"markProcessingFinished\":true,\"callBacker\":false,\"needDataEnrichment\":false,\"message\":null}",
+      "valueInfo": {
+        "objectTypeName": "java.util.HashMap<java.lang.Object,java.lang.Object>",
+        "serializationDataFormat": "application/json"
+      }
+    },
+    "inSenderTrhp": {
+      "type": "String",
+      "value": "3636e43fbe078e",
+      "valueInfo": {}
+    },
+    "HEADER_TRPH_DOCUMENT_OUT_ID": {
+      "type": "String",
+      "value": "0aad7f86-952a-4266-b675-95f4dec628cc",
+      "valueInfo": {}
+    },
+    "isSerial": {
+      "type": "Boolean",
+      "value": true,
+      "valueInfo": {}
+    },
+    "SubtypeGuid": {
+      "type": "String",
+      "value": "dbba8a9a-195c-4033-a618-3f4826dada75",
+      "valueInfo": {}
+    },
+    "HEADER_TRPH_MSG_GUID": {
+      "type": "String",
+      "value": "5821a286-98a3-43fc-80d3-20a7d278c195",
+      "valueInfo": {}
+    },
+    "isAcknowligment": {
+      "type": "Boolean",
+      "value": false,
+      "valueInfo": {}
+    },
+    "isDocumentCreated": {
+      "type": "Boolean",
+      "value": true,
+      "valueInfo": {}
+    },
+    "DocumentGuid": {
+      "type": "String",
+      "value": "5821a286-98a3-43fc-80d3-20a7d278c195",
+      "valueInfo": {}
+    },
+    "inReceiverTrhp": {
+      "type": "String",
+      "value": "0b01f2e98997cb",
+      "valueInfo": {}
+    },
+    "autoWms": {
+      "type": "Boolean",
+      "value": false,
+      "valueInfo": {}
+    },
+    "DOCUMENT_SUBTYPE_CODE_OUT": {
+      "type": "String",
+      "value": "T901",
+      "valueInfo": {}
+    },
+    "HEADER_TRPH_DOCUMENT_OUT_RECEIVER_ID": {
+      "type": "String",
+      "value": "0b01f2e98997cb",
+      "valueInfo": {}
+    },
+    "debug": {
+      "type": "Boolean",
+      "value": false,
+      "valueInfo": {}
+    },
+    "HEADER_TRPH_MSG_SUBTYPE_OUT": {
+      "type": "String",
+      "value": "T901",
+      "valueInfo": {}
+    },
+    "DOCUMENT_TYPE_CODE_OUT": {
+      "type": "String",
+      "value": "ITMNOT",
+      "valueInfo": {}
+    },
+    "HEADER_TRPH_DOCUMENT_SUBTYPE_OUT_ID": {
+      "type": "String",
+      "value": "dbba8a9a-195c-4033-a618-3f4826dada75",
+      "valueInfo": {}
+    },
+    "HEADER_TRPH_DOCUMENT_OUT_SENDER_ID": {
+      "type": "String",
+      "value": "3636e43fbe078e",
+      "valueInfo": {}
+    },
+    "processor": {
+      "type": "String",
+      "value": "DocSenderProcessor",
+      "valueInfo": {}
+    },
+    "OriginalGuid": {
+      "type": "String",
+      "value": "5821a286-98a3-43fc-80d3-20a7d278c195",
+      "valueInfo": {}
+    },
+    "Type": {
+      "type": "String",
+      "value": "ITMNOT",
+      "valueInfo": {}
+    },
+    "businessKeys": {
+      "type": "Object",
+      "value": "[\"5821a286-98a3-43fc-80d3-20a7d278c195\"]",
+      "valueInfo": {
+        "objectTypeName": "java.util.ArrayList<java.lang.String>",
+        "serializationDataFormat": "application/json"
+      }
+    },
+    "businessKey": {
+      "type": "String",
+      "value": "5821a286-98a3-43fc-80d3-20a7d278c195",
+      "valueInfo": {}
+    },
+    "BP020_Router": {
+      "type": "Object",
+      "value": "{\"CreateMessageCorrelation\":\"BP080_Message_StartProcess\"}",
+      "valueInfo": {
+        "objectTypeName": "java.util.HashMap<java.lang.Object,java.lang.Object>",
+        "serializationDataFormat": "application/json"
+      }
+    },
+    "ExternalGuid": {
+      "type": "String",
+      "value": "5821a286-98a3-43fc-80d3-20a7d278c195",
+      "valueInfo": {}
+    },
+    "Subtype": {
+      "type": "String",
+      "value": "T901",
+      "valueInfo": {}
+    }
+  },
+  "priority": 0,
+  "businessKey": "5821a286-98a3-43fc-80d3-20a7d278c195"
+}
